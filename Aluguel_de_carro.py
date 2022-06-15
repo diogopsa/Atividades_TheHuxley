@@ -1,0 +1,5 @@
+d=int(input(''))
+k=float(input(''))
+v=(d*30+0.01*k)
+t=(v*0.9)
+print('{:.2f}'.format(t))
