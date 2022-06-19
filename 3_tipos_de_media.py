@@ -1,0 +1,9 @@
+a=float(input(''))
+b=float(input(''))
+c=float(input(''))
+m1=(a+b+c)/3
+m2=(2*a+2*b+3*c)/7
+m3=(1*a+2*b+2*c)/5
+print('{:.2f}'.format(m1))
+print('{:.2f}'.format(m2))
+print('{:.2f}'.format(m3))
