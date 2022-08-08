@@ -1,0 +1,24 @@
+#Escreva um programa que leia as medidas dos lados de um triângulo e escreva se ele é Equilátero, Isósceles ou Escaleno. Sendo que:
+#- Triângulo Equilátero: possui os 3 lados iguais.
+#- Triângulo Isósceles: possui 2 lados iguais.
+#- Triângulo Escaleno: possui 3 lados diferentes.
+
+
+a = float(input(''))
+b = float(input(''))
+c = float(input(''))
+if a == b and a == c:
+    print('Digite o comprimento do lado A:')
+    print('Digite o comprimento do lado B:')
+    print('Digite o comprimento do lado C:')
+    print('Este e um triangulo equilatero.')
+elif a!=b and a!=c and b!=c:
+    print('Digite o comprimento do lado A:')
+    print('Digite o comprimento do lado B:')
+    print('Digite o comprimento do lado C:')
+    print('Este e um triangulo escaleno.')
+else:
+    print('Digite o comprimento do lado A:')
+    print('Digite o comprimento do lado B:')
+    print('Digite o comprimento do lado C:')
+    print('Este e um triangulo isosceles.')
