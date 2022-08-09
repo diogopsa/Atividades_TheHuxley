@@ -1,0 +1,6 @@
+#Crie um programa que determine o quociente de uma divisão inteira. Por exemplo, se a entrada for os valores inteiros 30 e 7, 
+#o programa deve fornecer como saída o valor iteiro 4.
+a = int(input(""))
+b = int(input(""))
+c = a//b
+print(c)
