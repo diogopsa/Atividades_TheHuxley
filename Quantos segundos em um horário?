@@ -1,0 +1,6 @@
+#Faça um programa que receba a quantidade de horas, minutos e segundos de duração de um evento e calcule a quantidade de total de segundos  que esse evento durou.
+horas = int(input(""))
+minutos = int(input(""))
+segundos = int(input(""))
+total_de_segundos = horas*3600 + minutos*60 + segundos
+print(total_de_segundos)
