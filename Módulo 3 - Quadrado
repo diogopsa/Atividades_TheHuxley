@@ -1,0 +1,4 @@
+#Crie um programa em Python que recebe um número um número inteiro (x) e mostra na tela o antecessor e o sucessor de (x).
+n = int(input(""))
+q = n**2
+print(q)
