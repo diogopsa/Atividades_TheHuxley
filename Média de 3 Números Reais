@@ -1,0 +1,6 @@
+#Este programa deve calcular a média de 3 números reais
+n1 = float(input(''))
+n2 = float(input(''))
+n3 = float(input(''))
+media = (n1+n2+n3)/3
+print("{:.6f}".format(media))
