@@ -1,0 +1,5 @@
+a,b= input().split()
+a = int(a)
+b = int(b)
+raiz = a**(1/b)
+print('{:.0f}'.format(raiz))
